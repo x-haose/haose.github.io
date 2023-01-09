@@ -2,12 +2,12 @@ baseurl: https://example.com
 languageCode: zh-cn
 theme: hugo-theme-stack
 paginate: 5
-title: 昊色居士
+title: 涩涩发抖
 
 languages:
   zh-cn:
     languageName: 中文
-    title: 昊色居士
+    title: 涩涩发抖
     description: 演示说明
     weight: 1
   en:
@@ -57,7 +57,7 @@ params:
 
   sidebar:
     emoji: 🍥
-    subtitle: 分享使知识增值
+    subtitle: 涩涩湿人进步
     avatar:
       enabled: true
       local: true
@@ -173,7 +173,7 @@ params:
 
   defaultImage:
     opengraph:
-      enabled: false
+      enabled: true
       local: false
       src:
 

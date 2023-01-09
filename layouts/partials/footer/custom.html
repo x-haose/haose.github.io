@@ -1,0 +1,8 @@
+<script>
+  document
+    .querySelectorAll('.article-image img[src="/rand"]')
+    .forEach(
+      (doc) =>
+        (doc.src = `/images/bg/bg_${parseInt(Math.random() * 15) + 1}.jpg`)
+    );
+</script>
