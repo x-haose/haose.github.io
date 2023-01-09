@@ -1,8 +1,8 @@
 <script>
-  document
-    .querySelectorAll('.article-image img[src="/rand"]')
-    .forEach(
-      (doc) =>
-        (doc.src = `/images/bg/bg_${parseInt(Math.random() * 15) + 1}.jpg`)
-    );
+  let max_number = 30;
+  let select = '.article-image img[src="/rand"]';
+
+  for (const doc of document.querySelectorAll(select)) {
+    doc.src = `/images/bg/bg_${parseInt(Math.random() * max_number)}.jpg`;
+  }
 </script>
