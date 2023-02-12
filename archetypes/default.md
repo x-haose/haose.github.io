@@ -4,7 +4,7 @@ author: "昊色居士"
 title: "{{ replace .Name "-" " " | title }}"
 description: 
 date: {{ .Date }}
-image: 
+image: rand
 math: 
 license: 
 hidden: false
